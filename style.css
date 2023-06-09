@@ -122,3 +122,13 @@
     background-color: #555;
   }
   
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+  }
