@@ -1,0 +1,124 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* Keine Medienabfrage für `xs`, da dies in Bootstrap der Standard ist */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    body {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    
+    h1 {
+      font-size: 24px;
+    }
+    
+    p {
+      margin-bottom: 10px;
+    }
+    
+    ul {
+      margin-left: 20px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    body {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    
+    h1 {
+      font-size: 28px;
+    }
+    
+    p {
+      margin-bottom: 15px;
+    }
+    
+    ul {
+      margin-left: 30px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    body {
+      font-size: 18px;
+      line-height: 1.7;
+    }
+    
+    h1 {
+      font-size: 32px;
+    }
+    
+    p {
+      margin-bottom: 20px;
+    }
+    
+    ul {
+      margin-left: 40px;
+    }
+  }
+  
+  /* X-Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    body {
+      font-size: 20px;
+      line-height: 1.8;
+    }
+    
+    h1 {
+      font-size: 36px;
+    }
+    
+    p {
+      margin-bottom: 25px;
+    }
+    
+    ul {
+      margin-left: 50px;
+    }
+  }
+  
+  /* XX-Large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    body {
+      font-size: 22px;
+      line-height: 1.9;
+    }
+    
+    h1 {
+      font-size: 40px;
+    }
+    
+    p {
+      margin-bottom: 30px;
+    }
+    
+    ul {
+      margin-left: 60px;
+    }
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
